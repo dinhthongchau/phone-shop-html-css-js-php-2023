@@ -1,0 +1,14 @@
+**********FRONT-END:************
+- FILE PHP: index.php ( header.php , footer.php) -> category.php -> product.php -> cart.php -> info_customer_cart.php -> comfirmcart.php
+- FILE CSS, JavaScript: style.css, script.js
+
+
+************BACK-END***********
+
+-Các file php hỗ trợ : database.php , config.php, login.php, logout.php,check_login.php, slider.php, header.php, .htaccess
+-FILE CSS: styleAdmin.css
+
+-Hỗ trợ: GoogleFont, FontAwesome, PHPMailer,CkEditor, link DiaGioiHanhChinhVN( Github), Axios , AJAX.
+
+
+( Điểm danh bài tập CSS Selector trước tết lớp F4, lớp F1 qua tết bữa đó em có xin học bù lớp F4 mail )

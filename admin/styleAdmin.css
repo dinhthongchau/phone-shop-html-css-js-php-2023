@@ -1,0 +1,216 @@
+
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    outline:none;
+    font-family: 'Tinos', serif;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.admin-content {
+    padding-top: 50px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.admin-content-left {
+   
+    width: 20%;
+    
+    padding: 30px 0 0 12px;
+    border-radius: 10px;
+     
+}
+
+
+.admin-content-left> ul > li >a{ /* the truc tiep, rut ngan selector */
+    font-weight: bold;
+    font-size: 23px;
+
+     
+}
+.admin-content-left ul{
+    padding-top: 10px;
+}
+
+
+.admin-content-left ul li {
+    margin: 6px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius:8px;
+    height: 100%;
+    
+    
+   
+
+}
+
+.admin-content-left ul li ul{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.admin-content-left ul li ul li {
+    
+   
+    border-radius: 10px;
+    padding : 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color: #FFFFFF;
+
+}
+
+.admin-content-left ul li ul li:hover {
+    cursor: pointer;
+   color: white;
+   background: green;
+
+}
+
+
+
+.admin-content-left ul ul {
+    margin-left: 20px;
+}
+
+
+
+.admin-content-right {
+    width: 80%;
+    padding: 30px 0 0 12px;
+
+}
+
+.admin-content-right-category_create input{
+    height: 30px;
+    width: 200px;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+
+.admin-content-right-category_create button{
+    display:block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.admin-content-right-category_create button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+/*-----------------CategoryLít----------------*/
+.admin-content-right-category_read table{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.admin-content-right-category_read table tr th,td{
+    border: 1px solid #dddddd;
+
+}
+
+table{
+    border: collapse;
+}
+
+/*-----------------ProductLít----------------*/
+
+
+.admin-content-right-product_add h1{
+    margin-bottom: 20px;
+ }
+
+.admin-content-right-product_add input,select {
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 6px 0 12px;
+    padding-left: 12px;
+}
+.admin-content-right-product_add textarea{
+    width: 500px;
+    height:200px;
+    display: block;
+    margin-bottom: 12px;
+    padding-left: 12px;
+}
+.admin-content-right-product_add button{
+display:block;
+margin-top: 10px;
+height: 30px;
+width: 100px;
+cursor: pointer;
+border: none;
+color: white;
+background-color: red;
+}
+
+.admin-content-right-product_add button:hover{
+background-color: transparent;
+color: red;
+border: 1px solid red;
+}
+
+
+
+table{
+    border-collapse: collapse;
+}
+.admin-content-right-table table{
+    
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    
+ }
+ .admin-content-right-table tr > th {
+     background-color: #CBD5C0; /* Màu xanh lá cho ô tiêu đề */
+     color: black;
+     padding: 2px;
+     text-align: center;
+    
+ 
+     
+ }
+ .admin-content-right-table tr:nth-child(even) td{
+     background-color: #F0EBEB ; 
+     
+     
+ }
+ .admin-content-right-table tr:nth-child(odd) td{
+    background-color: #ffffff ; 
+    
+    
+}
+
+ input{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding:5px;
+ }
