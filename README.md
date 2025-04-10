@@ -1,6 +1,6 @@
 ﻿
 # Web iPhone New - Cấu Hình
-
+## Canva full images : https://www.canva.com/design/DAGCkQjpjGc/sh-Zwwkml5G_W9zSA2X2IQ/edit
 ## Cấu Hình Cơ Sở Dữ Liệu
 
 Trước khi bắt đầu, hãy cấu hình thông tin kết nối cơ sở dữ liệu trong tệp `config.php`.
